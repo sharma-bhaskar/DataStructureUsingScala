@@ -2,7 +2,8 @@ name := "DataStructureUsingScala"
 
 version := "0.1"
 
-scalaVersion := "2.11.8"
+scalaVersion :="2.12.2"
 
-// https://mvnrepository.com/artifact/org.scala-lang/scala-library
-libraryDependencies += "org.scala-lang" % "scala-library" % "2.11.8"
+libraryDependencies += "org.scalatest" % "scalatest_2.13" % "3.1.0" % "test"
+
+libraryDependencies += "com.typesafe" % "config" % "1.4.1"
