@@ -1,5 +1,0 @@
-package MinnaTech
-
-object StreamingService {
-
-}
